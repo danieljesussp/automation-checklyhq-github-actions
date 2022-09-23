@@ -12,3 +12,4 @@ jobs:
       USERNAME: ${{ secrets.USERNAME }}
       KEY: ${{ secrets.KEY }}
       PORT: ${{ secrets.PORT }}
+      FINGERPRINT: ${{ secrets.FINGERPRINT }}
