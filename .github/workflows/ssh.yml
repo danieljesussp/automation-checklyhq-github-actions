@@ -27,3 +27,4 @@ jobs:
             hostname
             pwd 
             whoami
+            ls
