@@ -8,3 +8,7 @@ jobs:
     name: Automatism
     uses: ./.github/workflows/ssh.yml
     secrets:
+      HOST: ${{ secrets.HOST }}
+      USERNAME: ${{ secrets.USERNAME }}
+      KEY: ${{ secrets.KEY }}
+      PORT: ${{ secrets.PORT }}

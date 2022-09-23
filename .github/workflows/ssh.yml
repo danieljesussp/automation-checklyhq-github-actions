@@ -3,6 +3,14 @@ name: Automatism
 on:
   workflow_call:
     secrets:
+      HOST:
+        required: false
+      USERNAME:
+        required: false
+      KEY:
+        required: false
+      PORT:
+        required: false
 
 jobs:
   umami:
